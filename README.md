@@ -1,1 +1,15 @@
-# csc2611-assignment-submission
+# csc2611-assignment
+Assignment 1: Lab and exercise
+
+Folder named "exercise" contains a notebook which:
+- Generates LSA word vectors for words sampled from the Brown corpus + small external corpus with human judgements of similarity and stores them/vocabulary in `lab/data`
+
+Folder named "lab" contains a notebook which:
+1. Synchronic word embedding: compares word2vec to LSA vectors in solving the analogy task
+2. Using diachronic embeddings: proposing and evaluating methods for measuring degree of semantic change
+
+For reproducing experiments, the steps would be:
+1. run notebook in `exercise/` folder first to generate LSA vectors (or use LSA vectors already stored under `lab/data`)
+2. download required word2vec embeddings (into `data` folder), or diachronic embeddings
+3. run `lab.ipynb`
+
